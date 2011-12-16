@@ -80,7 +80,7 @@ Rails::Initializer.run do |config|
   config.gem "dbf", :version => "<= 1.2.9"
   config.gem "nofxx-georuby", :lib => 'geo_ruby'
   config.gem "spatial_adapter"
-  config.gem "mojombo-chronic", :lib => 'chronic', :source => 'http://gems.github.com'
+  config.gem "chronic"
   config.gem 'bluecloth'
   config.gem "htmlentities"
   config.gem "aws-s3", :lib => 'aws/s3'
@@ -92,7 +92,7 @@ Rails::Initializer.run do |config|
   config.gem "flickraw"
   config.gem 'rest-client', :lib => 'rest_client'
   config.gem 'hoptoad_notifier'
-  config.gem "carlosparamio-geoplanet", :lib => 'geoplanet', :source => "http://gems.github.com/"
+  config.gem "geoplanet"
   config.gem 'daemon-spawn', :lib => 'daemon_spawn'
   config.gem 'nokogiri'
   config.gem 'objectify-xml', :lib => 'objectify_xml'
